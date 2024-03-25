@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.city a{
+    color: inherit;
+}
+
+.menu{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.menu h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+
+}
+
+.city h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.city a{
+    font-size: 25px;
+
+}
+
+.bg-paris{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233046_895.jpg);
+}
+
+.bg-Ispania{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233045_390.jpg);
+}
+
+.bg-USA{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233043_719.jpg);
+}
+
+.bg-Italia{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233042_971.jpg);
+}
+
+.bg-Rossia{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233040_682.jpg);
+}
+
+.menu-bg{
+    position: absolute;
+    z-index: -1;
+}

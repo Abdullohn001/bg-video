@@ -10,6 +10,7 @@ ul, ol {
 
 a {
     text-decoration: none;
+    
 }
 
 html{
@@ -35,6 +36,12 @@ body{
 
 .city a{
     color: inherit;
+    &:hover{
+        color: blue;
+        cursor: pointer;
+        transition: 0.2s;
+        font-weight: 800;
+    }
 }
 
 .menu{
@@ -67,26 +74,36 @@ body{
 }
 
 .bg-paris{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233046_895.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+
+}
+
+.bg-paris h4{
+    max-width: 400px;
 }
 
 .bg-Ispania{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233045_390.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.bg-Ispania h4{
+    max-width: 500px;
 }
 
 .bg-USA{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233043_719.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 }
 
-.bg-Italia{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233042_971.jpg);
+.bg-USA h4{
+    max-width: 500px;
 }
 
-.bg-Rossia{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/IMG_20240325_233040_682.jpg);
-}
 
 .menu-bg{
     position: absolute;
     z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
+
